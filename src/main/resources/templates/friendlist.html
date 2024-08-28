@@ -4,7 +4,7 @@
 <title>Friends</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
-<h1>Friends</h1>
+<h1>My Friends</h1>
 <table>
 	<tr>
 		<th>First name</th>
@@ -16,7 +16,7 @@
 		<td th:text="${friend.lastName}"></td>
 	</tr>
 </table>
-<a href="/index">Return to main page</a>
+<a th:href="@{/addfriend}">Add friend</a>
 
 
 
