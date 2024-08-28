@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MyController {
 
-    @RequestMapping("/main")
-    @ResponseBody
-    public String showMessage() {
-        return "Eka SB sovellukseni";
-    }
+    // @RequestMapping("/main")
+    // @ResponseBody
+    // public String showMessage() {
+    //     return "Eka SB sovellukseni";
+    // }
 
     @RequestMapping("/main2")
     @ResponseBody
